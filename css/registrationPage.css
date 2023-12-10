@@ -1,0 +1,82 @@
+.main {
+    height: calc(100vh - 81px);
+    min-height: 690px;
+    padding-top: 20px;
+
+}
+
+@media only screen and (max-width: 1299px) {
+    .main {
+        min-height: 500px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .main {
+        height: auto;
+        padding-bottom: 120px;
+        padding-top: 40px;
+    }
+}
+
+/*Reg form =============================*/
+
+
+
+/* .regForm label input {
+    border-radius: 5px;
+    padding: 10px 10px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    background-color: #313131;
+    color: #ffffff;
+}
+
+.regForm label p {
+    margin-bottom: 8px;
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #ababab;
+}
+
+.regForm label p span {
+    color: #ff0000;
+}
+
+.regForm .errorMessage {
+    margin-top: 20px;
+    text-align: center;
+    color: #ff5b5b;
+} */
+
+.regSubmitBtn {
+    background-color: #FF8A56;
+    color: #000000;
+    margin-top: 15px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 13px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.regSubmitBtn:hover {
+    filter: brightness(1.2);
+}
+
+.regSubmitBtn:active {
+    filter: brightness(0.8);
+}
+
+@media only screen and (max-width: 640px) {
+    .regForm {
+        width: 100%;
+        padding: 20px;
+    }
+}
